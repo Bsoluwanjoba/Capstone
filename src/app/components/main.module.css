@@ -1,0 +1,80 @@
+.main{
+    height: 80vh;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.860), rgba(0, 0, 0, 0.860)), url(/pexels-angela-roma-7363753.jpg);
+    background-size: cover;
+    height: 90vh; 
+    border-radius: 0 0 100px 100px;
+    /* border-left: 4px solid red; */
+    /* border-right: 4px solid red; */
+    border-bottom: 5px solid red;
+    border-top: 4px solid red;
+}
+
+
+.category{
+    /* background-image: radial-gradient(rgba(0, 0, 0, 0.860), rgba(0, 0, 0, 0.860)), url(/bg/bgg.jpg);  */
+    width: 75%;
+    margin: 2em auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 250px);
+    gap: 0;
+    position: relative;
+    border-radius: 50px;
+}
+
+.category > :nth-child(1) {
+    background-image: radial-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url(/images/dish1.jpeg);
+    background-size: cover;
+    border-radius: 350px;
+    margin-top: -189px;
+    margin-bottom: 150px;
+    margin-right: -100px;
+    
+}
+.category > :nth-child(2) {
+    background-image: radial-gradient(rgba(0, 0, 0, 0.700), rgba(0, 0, 0, 0.700)), url(/images/dish11.jpeg);
+    background-size: cover;
+    border-radius: 350px;
+    margin-top: -189px;
+    box-shadow: 20px ;
+    filter: blur(1px);
+    filter: drop-shadow(5px 5px black);
+    margin-bottom: 150px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+.category > :nth-child(3) {
+    background-image: radial-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url(/images/dish12.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 350px;
+    margin-top: -189px;
+    margin-bottom: 150px;
+    margin-left: -100px;
+    
+}
+
+
+.category > div{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+.category > div > h2 {
+  background-color: red;
+  border-radius: 3px;
+  padding: 6px;
+  margin-top: 15px;
+  color: white;
+  font-weight: 500; 
+  font-size: 11px;
+  word-spacing: 3px;
+  letter-spacing: 2px; 
+}
+
+.section{
+  background-image: url(); 
+}
+

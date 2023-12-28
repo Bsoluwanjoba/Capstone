@@ -1,0 +1,40 @@
+.popularcategories{
+    background-color: red;
+    height: 70vh;
+    padding: 50px;
+    border: 2px dotted black;
+}
+
+.two{
+    width: 80%;
+    gap: 30px;
+    margin: 2em auto;
+    color: white;
+    font-weight: 500;
+    font-size: larger;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 250px);
+}
+.two > :nth-child(1) {
+    background-image: radial-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url(/images/dish4.jpeg);
+    background-size: cover;
+    border-radius: 20px;
+    height: 240px;
+    width: 360px;
+}
+.two > :nth-child(2) {
+    background-image: radial-gradient(rgba(0, 0, 0, 0.700), rgba(0, 0, 0, 0.700)), url(/images/dish16.jpeg);
+    background-size: cover;
+    border-radius: 20px;
+    height: 240px;
+    width: 360px;
+}
+.two > :nth-child(3) {
+    background-image: radial-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url(/images/dish25.jpeg);
+    background-size: cover;
+    border-radius: 20px;
+    height: 240px;
+    width: 360px;
+}
+

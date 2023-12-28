@@ -1,0 +1,21 @@
+.footer h2{
+    font-weight: bold;
+    /* text-decoration: underline; */
+    color: white;
+    font-size: 17px;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+}
+
+.footer section{
+    color: silver;
+    background-color: black;
+    height: 45vh;
+    font-weight: 500;
+    font-size: 14px;
+  
+}
+
+.footer ul{
+    line-height: 2em;
+}

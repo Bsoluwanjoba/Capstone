@@ -1,0 +1,20 @@
+.header{
+  background-image: radial-gradient(rgba(0, 0, 0, 0.700), rgba(0, 0, 0, 0.700)), url(/maindish/dish30.jpg);
+  background-size: cover;
+  border-bottom: 5px solid red;
+  border-radius: 0 0 100px 100px;
+  height: 50vh;
+}
+.center{
+    align-items: center;
+    border: 3px solid red;
+    border-radius: 100px;
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    margin: auto;
+}
+
+.main{
+    border: 10px solid red;
+}

@@ -1,0 +1,18 @@
+.aside{
+ /* background-color: #ffe;
+ color: black;
+ font-weight: 500;
+ padding: 40px;
+ filter: drop-shadow(4px 4px 4px);
+ opacity: 0.85; */
+}
+
+.border{
+    border-radius: 0 0 100px 100px;
+    border-bottom: 5px solid red;
+ }
+
+.borderr{
+  border-left: 6px solid black;
+  gap: 10px;
+ }

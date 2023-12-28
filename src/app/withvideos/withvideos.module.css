@@ -1,0 +1,9 @@
+.header{
+    height: 60vh;
+    background-image: radial-gradient(rgba(15, 7, 7, 0.715), rgba(17, 6, 6, 0.715)), url(/bg/new.jpg);
+    background-size: cover;
+    border-radius: 0 0 100px 100px;
+    /* border-left: 2px solid red; */
+    /* border-right: 2px solid red; */
+    border-bottom: 5px solid red;
+}
