@@ -149,7 +149,7 @@ export default function Blog() {
       <p>{blog.description}</p>
      
       <div className='flex gap-[10px] items-center border-l-[4px] border-[red] pl-[7px]'>
-      <Image src={`https://robohash.org/${blog.author}`} width={50} height={50} />
+      <Image src={`https://robohash.org/${blog.author}`} alt='author' width={50} height={50} />
       <p className='font-bold items-center'> {blog.author} <br />
       <span className='text-[12px]'>{blog.date}</span>
       </p>
@@ -165,7 +165,7 @@ export default function Blog() {
     <section>
       <div className={styles.head}>
         <div className='flex flex-col justify-center items-center h-64 text-white'>
-        <Image src={`https://robohash.org/${blogs.author}.jpg`}  height={100} width={100} className={styles.image}/>
+        <Image src={`https://robohash.org/${blogs.author}.jpg`}  alt='author' height={100} width={100} className={styles.image}/>
         <p className='text-white text-xl'>Blog compiled by Kreator</p>
     </div>
       </div>

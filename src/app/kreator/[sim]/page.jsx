@@ -23,7 +23,7 @@ export default function Page({params}) {
                           <span className='text-white font-semibold text-[22px] py-[7em] tracking-widest'> {blogCard.title} </span> <br />
                             </div>
                                                                   <div className='flex gap-[10px] items-center text-[white] tracking-widest bg-[red] w-[290px] h-[70px] bg-opacity-50'>
-                                              <Image src={`https://robohash.org/${blogCard.author}`} width={50} height={50}  className='border-solid border-[red]'/>
+                                              <Image src={`https://robohash.org/${blogCard.author}`} alt='author' width={50} height={50}  className='border-solid border-[red]'/>
                                               <p className='font-bold items-center tracking-[0.2em] mt-[20px]'> {blogCard.author} <br />
                                               <span className='text-[12px]'>{blogCard.date}</span>
                                               </p>

@@ -24,7 +24,7 @@ export default function page() {
       <div className='grid grid-cols-3 w-[70%] m-auto gap-5'>
 
        <div className=" bg-white h-[370px] rounded-lg items-center">
-       <Image src={`https://robohash.org/${blogs.author}`} width={90} height={90} className={styles.image}/>
+       <Image src={`https://robohash.org/${blogs.author}`} alt='author' width={90} height={90} className={styles.image}/>
           <div className='mt-[70px] leading-8'>
           <h2 className='font-bold text-[17px] text-center'>Nathaniel Smith</h2>
           <p className='w-[290px] text-center ml-[23px] tracking-wider'>A well renowed Five star Michellin chef with 30 years of experience in cooking of Chinese cuisines.</p>
@@ -35,7 +35,7 @@ export default function page() {
        
        
        <div className=" bg-white h-[370px] rounded-lg items-center">
-        <Image src={`https://robohash.org/${blogs.author}`} width={90} height={90} className={styles.image}/>
+        <Image src={`https://robohash.org/${blogs.author}`} alt='author' width={90} height={90} className={styles.image}/>
             <div className='mt-[70px] leading-8'>
             <h2 className='font-bold text-[17px] text-center'>Amanda Smith</h2>
             <p className='w-[290px] text-center ml-[23px] tracking-wider'>A well renowed Three star Michellin chef with 15 years of experience in cooking of Chinese cuisines.</p>
@@ -45,7 +45,7 @@ export default function page() {
        </div>
       
        <div className=" bg-white h-[370px] rounded-lg items-center">
-     <Image src={`https://robohash.org/${blogs.june}`} width={90} height={90} className={styles.image}/>
+     <Image src={`https://robohash.org/${blogs.june}`} alt='author' width={90} height={90} className={styles.image}/>
           <div className='mt-[70px] leading-8'>
           <h2 className='font-bold text-[17px] text-center'>Ballack Smith</h2>
           <p className='w-[290px] text-center ml-[23px]'>A well renowed Two star Michellin chef with 23 years of experience in cooking of Chinese cuisines.</p>
