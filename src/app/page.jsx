@@ -10,7 +10,6 @@ export default function Home() {
     <MainPage />
     <Category />
     <PopularCategories />
-    <Recently />
     </main>
   )
 }
